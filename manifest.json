@@ -1,9 +1,11 @@
 {
-  "name": "Laptop Spec Checker",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "Laptop AI Spec Checker",
+  "version": "1.0",
+  "description": "Checks laptop specs using AI",
+  "permissions": ["scripting", "tabs", "activeTab"],
   "action": {
     "default_popup": "popup.html"
-  }
+  },
+  "host_permissions": ["<all_urls>"]
 }
