@@ -20,7 +20,7 @@ document.getElementById("check").onclick = function(event) {
 };
 
 function analyzeLaptopSpecs(text) {
-  const apiKey = "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";
+  const apiKey = "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";
   const apiUrl = "https://api.openai.com/v1/completions";
 
   const requestData = {
