@@ -12,10 +12,21 @@ document.getElementById("check").onclick = function(event) {
           const title = document.querySelector('h1, [id*="title"], [class*="product-title"]');
           if (title) text += "Product: " + title.innerText + "\n\n";
 
+          const ram = document.querySelector('h1, [id*="ram"], [class*="product-ram"]');
+          if (ram) text += "RAM: " + ram.innerText + "\n\n";
+
+          const cpu = document.querySelector('h1, [id*="cpu"], [class*="product-cpu"]');
+          if (cpu) text += "CPU: " + cpu.innerText + "\n\n";
+
+          const material = document.querySelector('h1, [id*="material"], [class*="product-material"]');
+          if (material) text += "Material: " + material.innerText + "\n\n";
+
           const specSections = document.querySelectorAll('[class*="spec"], [id*="spec"], [class*="feature"], [id*="feature"], [class*="detail"], [id*="detail"]');
           specSections.forEach(section => {
             text += section.innerText + "\n";
           });
+          
+          
           
           if (text.length < 100) {
             const description = document.querySelector('[class*="description"], [id*="description"], [class*="product-info"]');
