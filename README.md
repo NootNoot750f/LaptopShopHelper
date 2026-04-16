@@ -29,3 +29,7 @@ Select the downloaded repo and open the "LaptopShopHelper" folder and stop there
 Click "Load unpacked"
 
 
+<img width="1328" height="794" alt="image" src="https://github.com/user-attachments/assets/f4ba3624-28e4-4d7f-9f98-03992a338383" />
+
+
+
